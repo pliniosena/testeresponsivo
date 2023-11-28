@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+}
+a:hover{
+    color: #9292b969;
+}
+.btn{
+    display: inline-block;
+    padding: 15px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+
+
+.headline{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* NAVBAR */
+#navbar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{font-size: 2rem;}
+
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+#navbar-items li{
+    padding: 10px;
+}
+/* showcase */
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+   background: url(showcase.jfif) no-repeat center center/cover;
+
+   /* overlay */
+
+
+   background-color: rgba(0, 0, 0, 0.329);
+   background-blend-mode: color;
+
+}
+
+#showcase-container{
+    text-align: center;
+
+}
+#showcase-container h2{
+    font-size: 2.5rem;
+}
+
+#showcase-container p{
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+/* CLIENTES */
+#clients{
+    width: 100%;
+    background: white;
+    color: black;
+    padding: 50px;
+}
+
+
+.clients-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 15px;
+}
+
+.clients{
+    display: inline-block;
+    width: 25%;
+}
+
+#features{
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 50px;
+}
+
+#features-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:50px;
+    
+
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* PRODUTOS */
+#product{
+    width: 100%;
+    padding: 50px;
+}
+
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#items{
+    width: 650px;
+}
+
+#items.item{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+/* testemonials */
+
+
+.testemonials{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #333;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#testemonials{
+
+    width: 100%;
+    background-color: #222;
+    color: wheat;
+    padding: 50px;
+}
+
+#testemonials-container{
+margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testemonial .testemonial-image{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+/* gallery */
+
+#gallery{
+
+    margin: auto;
+    width: 90%;
+    padding: 50px;
+}
+
+#gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    justify-content: center;
+}
+
+#gallery-image{
+    display: inline-block;
+    height: 300px;
+    width: 540px;
+    border-radius: 5px;
+}
+
+#footer{
+    width: 100%;
+    color: #eee;
+    background-color: #222;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
